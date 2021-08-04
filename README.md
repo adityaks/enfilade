@@ -15,7 +15,13 @@ Attackers are targeting MongoDB instances for conducting nefarious operations on
      - Basic assessment checks for detecting ransomware infections 
      - Intrusive assessment checks for extracting insidious details about potential ransomware infections
 
+
+--------------
+
 Note: This is the first release of the tool and we expect to addmore modules in the nearby future. This work is done in collaboration with Research Team at Office of the CTO, F5.
+
+
+--------------
 
 Researched and Developed By Aditya K Sood and Rohit Bansal 
 
