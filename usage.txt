@@ -1,0 +1,26 @@
+$ python enfilade.py 
+	--------------------------------------------------------------------
+   
+	   _____  ____________   ___   ___  ____
+	  / __/ |/ / __/  _/ /  / _ | / _ \/ __/
+	 / _//    / _/_/ // /__/ __ |/ // / _/  
+	/___/_/|_/_/ /___/____/_/ |_/____/___/ 
+
+	ENFILADE : A Tool to Detect Potential Infections in MongoDB Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+
+
+[-] usage: enfilade.py <mongodb host (local or remote)> <mongodb service port> <module_name>
+[*] modules: [verify_auth] | [dump_info] | [admin_access_verify] | [basic_check_ransomware] | [intrusive_check_ransomware]
+[*]      : verify_auth --> check if MongoDB interface is <EXPOSED>
+[*]	 : dump_info --> dump information of the MongoDB instance
+[*] 	 : enum_users --> map active users in the MongoDB instance
+[*]	 : admin_access_verify --> check if admin commands are allowed to run [adding user <enfilade> with role <root>]
+[*]  : basic_check_ransomware --> check for basic <RANSOMWARE> indicators on the remote MongoDB instance
+[*]  : basic_check_meow_bot --> check for basic <MEOW BOT> indicators on the remote MongoDB instance
+[*]	 : intrusive_check_ransomware --> conduct detailed analysis for <RANSOMWARE> indicators/infections on the remote MongoDB instance
+[*]  : intrusive_check_meow_bot --> conduct detailed analysis for <MEOW BOT> indicators/infections on the remote MongoDB instance
+
+[*] example: enfilade.py 127.0.0.1 27017 ransomware
