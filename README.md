@@ -2,7 +2,7 @@
 
 # Enfilade: Tool to Detect Infections in MongoDB
 
-Attackers are targeting MongoDB instances for conducting nefarious operations on the Internet. The cybercriminals are targeting exposed MongoDB instances and trigger infections at scale to exfiltrate data, destruct data,and extort money via ransom. For example one of the significant threats MongoDB deployments is facing is ransomware. During this talk, we will release atool named "ENFILADE" to detect potential infections in the MongoDB instances.The tool allows security researchers, penetration testers, and threatintelligence experts to detect compromised and infected MongoDB instances running malicious code. The tool also enables you to conduct efficient research in the field of malware targeting cloud databases. In this release of the tool,the following modules are supported: 
+Attackers are targeting MongoDB instances for conducting nefarious operations on the Internet. The cybercriminals are targeting exposed MongoDB instances and trigger infections at scale to exfiltrate data, destruct data,and extort money via ransom. For example one of the significant threats MongoDB deployments is facing is ransomware. During this talk, we will release atool named "ENFILADE" to detect potential infections in the MongoDB instances. The tool allows security researchers, penetration testers, and threat intelligence experts to detect compromised and infected MongoDB instances running malicious code. The tool also enables you to conduct efficient research in the field of malware targeting cloud databases. In this release of the tool, the following modules are supported: 
 
 * MongoDB instance information gathering and reconnaissance 
 * MongoDB instance exposure on the Internet 
