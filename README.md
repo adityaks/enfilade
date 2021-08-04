@@ -19,4 +19,4 @@ Note: This is the first release of the tool and we expect to addmore modules in 
 
 Researched and Developed By Aditya K Sood and Rohit Bansal 
 
-**Note: The tool was selected to be released at BlackHat Arsenal USA 2021. Due to COVID-19 challenges, we were not able to present in-person at the conference. We are releasing the project directly at GitHub. **
+# Note: The tool was selected to be released at BlackHat Arsenal USA 2021. Due to COVID-19 challenges, we were not able to present in-person at the conference. We are releasing the project directly at GitHub.
