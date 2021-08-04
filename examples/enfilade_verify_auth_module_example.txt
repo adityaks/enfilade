@@ -1,0 +1,29 @@
+$ python enfilade.py 185.156.42.138 27017 verify_auth
+	--------------------------------------------------------------------
+   
+	   _____  ____________   ___   ___  ____
+	  / __/ |/ / __/  _/ /  / _ | / _ \/ __/
+	 / _//    / _/_/ // /__/ __ |/ // / _/  
+	/___/_/|_/_/ /___/____/_/ |_/____/___/ 
+
+	ENFILADE : A Tool to Detect Potential Infections in MongoDB  Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+
+
+[#] Checking the <GEOIP> status of the MongoDB instance ......
+[-] could not fetch the geolocation details of the ip_address: 185.156.42.138
+[*] continuing the execution ...... 
+
+[*] MongoDB instance identifier is constructed as: mongodb://185.156.42.138:27017
+
+[*] Validating authentication: checking if MongoDB interface is open to access..
+
+[*] Target : <185.156.42.138:27017>
+[*] Connection established, <[UNAUTHENTICATED/EXPOSED MONGODB]> instance running....
+
+
+[*] Use the module <[dump_info]> to retrieve MongoDB server information.
+
+[*] Request processed successfully ! exiting !

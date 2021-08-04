@@ -1,0 +1,45 @@
+$ python enfilade.py 185.156.42.138 27017 dump_info
+	--------------------------------------------------------------------
+   
+	   _____  ____________   ___   ___  ____
+	  / __/ |/ / __/  _/ /  / _ | / _ \/ __/
+	 / _//    / _/_/ // /__/ __ |/ // / _/  
+	/___/_/|_/_/ /___/____/_/ |_/____/___/ 
+
+	ENFILADE : A Tool to Detect Potential Infections in MongoDB  Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+
+
+[#] Checking the <GEOIP> status of the MongoDB instance ......
+[-] could not fetch the geolocation details of the ip_address: 185.156.42.138
+[*] continuing the execution ...... 
+
+[*] MongoDB instance identifier is constructed as: mongodb://185.156.42.138:27017
+
+[*] Validating authentication: checking if MongoDB interface is open to access..
+
+[*] Target : <185.156.42.138:27017>
+[*] Connection established, <[UNAUTHENTICATED/EXPOSED MONGODB]> instance running....
+
+[*] ----------------- <[DUMPING MONGODB SERVER INFORMATION]> -----------------------
+
+[*] storageEngines   :       [u'devnull', u'ephemeralForTest', u'mmapv1', u'wiredTiger']
+[*] maxBsonObjectSize   :       16777216
+[*] ok   :       1.0
+[*] bits   :       64
+[*] modules   :       []
+[*] openssl   :       {u'compiled': u'OpenSSL 1.0.2g  1 Mar 2016', u'running': u'OpenSSL 1.0.2g  1 Mar 2016'}
+[*] javascriptEngine   :       mozjs
+[*] version   :       3.2.22
+[*] gitVersion   :       105acca0d443f9a47c1a5bd608fd7133840a58dd
+[*] versionArray   :       [3, 2, 22, 0]
+[*] debug   :       False
+[*] buildEnvironment   :       {u'cxxflags': u'-Wnon-virtual-dtor -Woverloaded-virtual -Wno-maybe-uninitialized -std=c++11', u'cc': u'/opt/mongodbtoolchain/v2/bin/gcc: gcc (GCC) 5.4.0', u'linkflags': u'-fPIC -pthread -Wl,-z,now -rdynamic -fuse-ld=gold -Wl,-z,noexecstack -Wl,--warn-execstack', u'distarch': u'x86_64', u'cxx': u'/opt/mongodbtoolchain/v2/bin/g++: g++ (GCC) 5.4.0', u'ccflags': u'-fno-omit-frame-pointer -fPIC -fno-strict-aliasing -ggdb -pthread -Wall -Wsign-compare -Wno-unknown-pragmas -Winvalid-pch -Werror -O2 -Wno-unused-local-typedefs -Wno-unused-function -Wno-deprecated-declarations -Wno-unused-but-set-variable -Wno-missing-braces -fno-builtin-memcmp', u'target_arch': u'x86_64', u'distmod': u'ubuntu1604', u'target_os': u'linux'}
+[*] sysInfo   :       deprecated
+[*] allocator   :       tcmalloc
+[*] ---------------------------------------------------------------------------------
+
+
+[*] Request processed successfully ! exiting !

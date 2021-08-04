@@ -1,0 +1,33 @@
+$ python enfilade.py 185.156.42.138 27017 basic_check_ransomware
+	--------------------------------------------------------------------
+   
+	   _____  ____________   ___   ___  ____
+	  / __/ |/ / __/  _/ /  / _ | / _ \/ __/
+	 / _//    / _/_/ // /__/ __ |/ // / _/  
+	/___/_/|_/_/ /___/____/_/ |_/____/___/ 
+
+	ENFILADE : A Tool to Detect Potential Infections in MongoDB  Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+
+
+[#] Checking the <GEOIP> status of the MongoDB instance ......
+[-] could not fetch the geolocation details of the ip_address: 185.156.42.138
+[*] continuing the execution ...... 
+
+[*] MongoDB instance identifier is constructed as: mongodb://185.156.42.138:27017
+
+[*] Target : <185.156.42.138:27017>
+[*] Initiating <[BASIC CHECKS]> for <[RANSOMWARE DETECTION LOGIC]>....
+
+
+[*] Checking for potential traces of ransomware......
+
+[*] Database with potential ransom trace detected......
+[D] Suspicious database detected: <[READ__ME_TO_RECOVER_YOUR_DATA]>
+
+
+[*] Use the module <[intrusive_check_ransomware]> for aggresive analysis.
+
+[*] Request processed successfully ! exiting !

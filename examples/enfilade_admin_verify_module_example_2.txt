@@ -1,0 +1,29 @@
+$ python enfilade.py 185.156.42.138 27017 admin_access_verify
+	--------------------------------------------------------------------
+   
+	   _____  ____________   ___   ___  ____
+	  / __/ |/ / __/  _/ /  / _ | / _ \/ __/
+	 / _//    / _/_/ // /__/ __ |/ // / _/  
+	/___/_/|_/_/ /___/____/_/ |_/____/___/ 
+
+	ENFILADE : A Tool to Detect Potential Infections in MongoDB  Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+
+
+[#] Checking the <GEOIP> status of the MongoDB instance ......
+[-] could not fetch the geolocation details of the ip_address: 185.156.42.138
+[*] continuing the execution ...... 
+
+[*] MongoDB instance identifier is constructed as: mongodb://185.156.42.138:27017
+
+[*] Validating admin access: checking if MongoDB allows execution for admin commands....
+
+[*] Target : <185.156.42.138:27017>
+[*] Connection established, trying to add user <enfilade> to the <admin> database in the target MongoDB instance ....
+
+[*] Checking if the <admin> database exists on MongoDB instance: <[185.156.42.138:27017]>
+[-] Admin database doesn't exist: configured database: <[READ__ME_TO_RECOVER_YOUR_DATA]>, not initiating the command to add user <[enfildae], try manually... 
+
+[*] Request processed successfully ! exiting !

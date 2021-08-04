@@ -1,0 +1,68 @@
+$ python enfilade.py 47.92.75.2 27017 basic_check_meow_bot
+	--------------------------------------------------------------------
+   
+	   _____  ____________   ___   ___  ____
+	  / __/ |/ / __/  _/ /  / _ | / _ \/ __/
+	 / _//    / _/_/ // /__/ __ |/ // / _/  
+	/___/_/|_/_/ /___/____/_/ |_/____/___/ 
+
+	ENFILADE : A Tool to Detect Potential Infections in MongoDB Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+
+
+[#] Checking the <GEOIP> status of the MongoDB instance ......
+[*] MongoDB instance is located in <CN> | <Asia/Shanghai>
+
+[*] MongoDB instance identifier is constructed as: mongodb://47.92.75.2:27017
+
+[*] Target : <47.92.75.2:27017>
+[*] Initiating <[BASIC CHECKS]> for <[MEOW BOT DETECTION LOGIC]>....
+
+
+[*] Checking for potential traces of meow bot ......
+[D] Suspicious database detected with <[meow bot]> infection: <[kf1u3g846a-meow]>
+{u'storageSize': 0, u'ok': 1.0, u'avgObjSize': 0, u'db': u'item', u'indexes': 0, u'objects': 0, u'collections': 0, u'fileSize': 0, u'numExtents': 0, u'dataSize': 0, u'indexSize': 0}
+
+
+[D] Suspicious database detected with <[meow bot]> infection: <[o95y3vzpcu-meow]>
+{u'storageSize': 0, u'ok': 1.0, u'avgObjSize': 0, u'db': u'item', u'indexes': 0, u'objects': 0, u'collections': 0, u'fileSize': 0, u'numExtents': 0, u'dataSize': 0, u'indexSize': 0}
+
+
+[D] Suspicious database detected with <[meow bot]> infection: <[6n9zo13is9-meow]>
+{u'storageSize': 0, u'ok': 1.0, u'avgObjSize': 0, u'db': u'item', u'indexes': 0, u'objects': 0, u'collections': 0, u'fileSize': 0, u'numExtents': 0, u'dataSize': 0, u'indexSize': 0}
+
+
+[D] Suspicious database detected with <[meow bot]> infection: <[mctu2uq8yu-meow]>
+{u'storageSize': 0, u'ok': 1.0, u'avgObjSize': 0, u'db': u'item', u'indexes': 0, u'objects': 0, u'collections': 0, u'fileSize': 0, u'numExtents': 0, u'dataSize': 0, u'indexSize': 0}
+
+
+[D] Suspicious database detected with <[meow bot]> infection: <[nmrnaxdyss-meow]>
+{u'storageSize': 0, u'ok': 1.0, u'avgObjSize': 0, u'db': u'item', u'indexes': 0, u'objects': 0, u'collections': 0, u'fileSize': 0, u'numExtents': 0, u'dataSize': 0, u'indexSize': 0}
+
+
+[D] Suspicious database detected with <[meow bot]> infection: <[9gsvl6lyud-meow]>
+{u'storageSize': 0, u'ok': 1.0, u'avgObjSize': 0, u'db': u'item', u'indexes': 0, u'objects': 0, u'collections': 0, u'fileSize': 0, u'numExtents': 0, u'dataSize': 0, u'indexSize': 0}
+
+
+[D] Suspicious database detected with <[meow bot]> infection: <[rgx4pgfip5-meow]>
+{u'storageSize': 0, u'ok': 1.0, u'avgObjSize': 0, u'db': u'item', u'indexes': 0, u'objects': 0, u'collections': 0, u'fileSize': 0, u'numExtents': 0, u'dataSize': 0, u'indexSize': 0}
+
+
+[D] Suspicious database detected with <[meow bot]> infection: <[er9xjydrlp-meow]>
+{u'storageSize': 0, u'ok': 1.0, u'avgObjSize': 0, u'db': u'item', u'indexes': 0, u'objects': 0, u'collections': 0, u'fileSize': 0, u'numExtents': 0, u'dataSize': 0, u'indexSize': 0}
+
+
+[D] Suspicious database detected with <[meow bot]> infection: <[a1owkv83d2-meow]>
+{u'storageSize': 0, u'ok': 1.0, u'avgObjSize': 0, u'db': u'item', u'indexes': 0, u'objects': 0, u'collections': 0, u'fileSize': 0, u'numExtents': 0, u'dataSize': 0, u'indexSize': 0}
+
+
+[D] Suspicious database detected with <[meow bot]> infection: <[44tpa43li6-meow]>
+{u'storageSize': 0, u'ok': 1.0, u'avgObjSize': 0, u'db': u'item', u'indexes': 0, u'objects': 0, u'collections': 0, u'fileSize': 0, u'numExtents': 0, u'dataSize': 0, u'indexSize': 0}
+
+
+
+[*] [Suggestion] Use the module <[intrusive_check_meow_bot]> for aggresive analysis.
+
+[*] Request processed successfully ! exiting !

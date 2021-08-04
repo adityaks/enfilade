@@ -1,0 +1,40 @@
+$ python enfilade.py 185.156.42.138 27017 intrusive_check_ransomware
+	--------------------------------------------------------------------
+   
+	   _____  ____________   ___   ___  ____
+	  / __/ |/ / __/  _/ /  / _ | / _ \/ __/
+	 / _//    / _/_/ // /__/ __ |/ // / _/  
+	/___/_/|_/_/ /___/____/_/ |_/____/___/ 
+
+	ENFILADE : A Tool to Detect Potential Infections in MongoDB  Deployments !
+        Authored by: Aditya K Sood {https://adityaksood.com} 
+        
+	--------------------------------------------------------------------
+
+
+[#] Checking the <GEOIP> status of the MongoDB instance ......
+[-] could not fetch the geolocation details of the ip_address: 185.156.42.138
+[*] continuing the execution ...... 
+
+[*] MongoDB instance identifier is constructed as: mongodb://185.156.42.138:27017
+
+[*] Target : <185.156.42.138:27017>
+[*] Initiating <[INTRUSIVE CHECKS]> for <[RANSOMWARE DETECTION LOGIC]>....
+
+[*] Dumping the identifiers of all the databases on: <[185.156.42.138:27017]>
+[D] READ__ME_TO_RECOVER_YOUR_DATA
+
+[*] Checking for potential traces of ransomware notifications and messages......
+
+[*] Database with potential ransom trace detected......
+[D] Suspicious database detected: <[READ__ME_TO_RECOVER_YOUR_DATA]>
+
+[C] Suspicious collection name with ransomware trace detected...... <[README]>
+[C] Suspicious collection handle: Collection(Database(MongoClient(host=['185.156.42.138:27017'], document_class=dict, tz_aware=False, connect=True, serverselectiontimeoutms=5000), u'READ__ME_TO_RECOVER_YOUR_DATA'), u'README')
+
+[*] Dumping the suspicious collection records for potential <[RANSOMWARE]> messages and notifications
+[*] {u'content': u'All your data is a backed up. You must pay 0.03 BTC to 15EyXBgZi88pqyN9dapDpqhX5kfsnMiWLK 48 hours for recover it. After 48 hours expiration we will leaked and exposed all your data. In case of refusal to pay, we will contact the General Data Protection Regulation, GDPR and notify them that you store user data in an open form and is not safe. Under the rules of the law, you face a heavy fine or arrest and your base dump will be dropped from our server! You can buy bitcoin here, does not take much time to buy https://localbitcoins.com or https://buy.moonpay.io/ After paying write to me in the mail with your DB IP: myDBszu@recoverme.one and you will receive a link to download your database dump.', u'_id': ObjectId('60de0886d01019323b1c7018')}
+
+[*] Target <[185.156.42.138:27017]> is potentially infected with <[RANSOMWARE]>
+
+[*] Request processed successfully ! exiting !
