@@ -1,4 +1,4 @@
-![Screenshot](images/inflade.png)
+![Screenshot](images/enfilade.png)
 
 # Enfilade: Tool to Detect Infections in MongoDB
 
