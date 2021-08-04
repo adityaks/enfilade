@@ -18,7 +18,7 @@ Attackers are targeting MongoDB instances for conducting nefarious operations on
 
 --------------
 
-Note: This is the first release of the tool and we expect to add more modules in the nearby future. This work is done in collaboration with the Research Team at the Office of the CTO, F5 (https://www.f5.com/company/octo)
+This is the first release of the tool and we expect to add more modules in the nearby future. This work is done in collaboration with the Research Team at the Office of the CTO, F5 (https://www.f5.com/company/octo)
 
 
 --------------
